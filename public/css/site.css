@@ -1,0 +1,282 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:500|Abel|Poiret+One|Open+Sans|Montserrat);
+* {	
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #fff;
+  height: 100%;
+}
+.cropArea {
+    background: #E4E4E4;
+    overflow: hidden;
+    width:100%;
+    height:350px;
+}
+.dropArea {
+    background: #E4E4E4;
+    overflow: hidden;
+    width: 100%;
+    height: 220px;
+    border: #666666 dashed 1px;
+    cursor: pointer;
+}
+.thumb {
+    height: auto;
+    max-width: 100%;
+}
+.dropboxtext{
+	font-size: 24px;
+    position: relative;
+    bottom: 36px;
+}
+.dropboxposition{
+	color: #757575;
+	text-align: center;
+}
+
+.percent {
+    position: absolute;
+    text-shadow: 1px 1px 1px black;
+    width: 100%;
+    height: 30px;
+    z-index: 1;
+    line-height: 33px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+.pg-bar {
+	width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #DDDDDD;
+}
+.uploaded {
+    width:0;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #FF8800;
+}
+
+.angular-google-map-container { 
+  height: 400px; 
+  width: 100%;
+}
+
+.nopadding{
+	padding: 0;
+}
+
+
+.button{
+	border: solid 2px #ff8432;
+	color: #fff;
+	display: inline-block;
+	font-weight: 700;
+	line-height: 2.75em;
+	padding: 0 1.65em;
+	background-color: #FF6801;
+
+}
+
+.button:hover{
+	background-color: #e0e0e0;
+	text-decoration: none;
+	color: #121212;
+}
+.pointer{
+	cursor: pointer;
+}
+
+/* NewsLetter and Comments */
+
+
+.newsImage {
+	float: left;
+	padding-bottom: 30px;
+}
+
+.singleNewsImage {
+	height: 350px;
+	width: 500px;
+}
+
+.subjectLine {
+	margin-left: 35px;
+}
+
+.leagueLogo {
+	height: 25px;
+	clear: both;
+}
+
+p.article {
+	width: 50em; 
+	word-wrap: break-word;
+}
+
+
+/*Inbox Styling*/
+.msgModal{
+  padding: 30px;
+  width: 100%
+}
+.inbox{
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 100%;
+  min-height: 100%;
+  position: fixed;
+  width: inherit;
+}
+.inboxMessages{
+  background-color: white;
+  height: 65px;
+}
+.inboxSub{
+  font-size: 11px;
+  color: #707070;
+}
+.messageDisplay{
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 40vw;
+  padding: 25px;
+}
+.messageSender{
+  background-color: #5BCDFF;
+  border-color: #5BCDFF;
+  color: #fff;
+  margin-left: 2em;
+  position: relative;
+  margin: 0;
+  padding: 8px 10px;
+  border-radius: 16px;
+  line-height: 24px;
+  margin-top: 8px;
+}
+.messageRecipient{
+  background-color: #F5F5F5;
+  border-color: #F5F5F5;
+  margin-left: 2em;
+  position: relative;
+  margin: 0;
+  padding: 8px 10px;
+  border-radius: 16px;
+  line-height: 24px;
+  margin-top: 8px;
+}
+.messageInput{
+
+}
+.hideMessage{
+  visibility: hidden;
+}
+.profImg{
+	
+}
+.profBox{
+  background-color: #fff;
+  padding: 20px;
+  border-top: solid 3px #ff8432;
+}
+.profBox2{
+  background-color: #fff;
+  padding: 40px;
+}
+.profLeague{
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 40px;
+}
+.profComments{
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 40px;
+}
+.hr{
+  padding-top: 5px;
+  border-bottom:1px solid #bfbfbf;
+  padding-top: 5px;
+}
+.profPicEdit{
+  height: 100%;
+}
+.homeImg{
+  width: 100%;
+  position: fixed;
+  top: -70px;
+  z-index: -1;
+}
+/* Header Home Page */
+#head {
+    min-height: 500px;
+    text-align: center;
+    padding-top: 140px;
+    color: white;
+    font-family: "Open sans", Helvetica, Arial;
+    font-weight: 300;
+}
+#head.secondary {
+    height: 100px;
+    min-height: 100px;
+    padding-top: 0px;
+}
+#head .lead {
+    text-shadow: -2px 2px 4px black;
+    font-family: "Open sans", Helvetica, Arial;
+    font-size: 44px;
+    margin-bottom: 6px;
+    color: white;
+    line-height: 1.15em;
+}
+#head .tagline {
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 25px;
+}
+#head .tagline a {
+    color: #fff;
+}
+#head .btn-default {
+    background: transparent;
+    color: #d6d6d6;
+    box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, .5);
+    background: rgba(20, 20, 20, 0.30);
+}
+#head .btn-default:hover,
+#head .btn-default:focus {
+    color: rgba(255, 255, 255, .8);
+    -webkit-box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, .8);
+    -moz-box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, .8);
+    box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, .8);
+    background: transparent;
+}
+#head .btn-default:active,
+#head .btn-default.active {
+    color: #fff;
+    -webkit-box-shadow: inset 0px 0px 0px 3px #fff;
+    -moz-box-shadow: inset 0px 0px 0px 3px #fff;
+    box-shadow: inset 0px 0px 0px 3px #fff;
+    background: transparent;
+}
+@media (max-width: 767px) {
+    #head {
+        min-height: 420px;
+        padding-top: 160px;
+    }
+    #head .lead {
+        font-size: 34px;
+    }
+}
+.jumbotron{
+  margin-bottom: 0;
+}
+
+
+
+ 
+

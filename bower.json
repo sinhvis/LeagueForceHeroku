@@ -1,0 +1,28 @@
+{
+  "name": "appname",
+  "version": "0.0.0",
+  "authors": [
+    "--"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.3",
+    "angular-ui-router": "~0.2.15",
+    "angular-modal-service": "~0.6.9",
+    "angular-ui-bootstrap": "~0.13.4",
+    "angular-google-maps": "~2.2.1",
+    "textAngular": "~1.4.6",
+    "angular-file-upload": "~2.1.4",
+    "ng-file-upload": "~9.0.9",
+    "ng-img-crop": "ngImgCrop#~0.3.2",
+    "angular-bootstrap": "~0.14.0"
+  }
+}
