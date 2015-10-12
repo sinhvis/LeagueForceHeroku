@@ -5,37 +5,40 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "angular-modal-service": "^0.6.9",
-    "body-parser": "^1.12.4",
-    "cloudinary": "^1.2.4",
-    "crypto": "0.0.3",
-    "ejs": "^2.3.1",
-    "express": "^4.12.4",
-    "express-jwt": "^3.1.0",
-    "jsonwebtoken": "^5.0.5",
-    "mongoose": "^4.1.9",
-    "multiparty": "^4.1.2",
-    "nodemailer": "~0.7.1",
-    "passport": "^0.3.0",
-    "passport-facebook": "^2.0.0",
-    "passport-google-oauth": "^0.2.0",
-    "passport-local": "^1.0.0"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sinhvis/LeagueForceHeroku.git"
-  },
-  "keywords": [
-    "League",
-    "Soccer"
-  ],
-  "author": "JoseHamadAnthonyvishal",
-  "bugs": {
-    "url": "https://github.com/sinhvis/LeagueForceHeroku/issues"
-  },
-  "homepage": "https://github.com/sinhvis/LeagueForceHeroku#readme"
-}
+    },
+    "license": "MIT",
+    "dependencies": {
+      "angular-modal-service": "^0.6.9",
+      "body-parser": "^1.12.4",
+      "cloudinary": "^1.2.4",
+      "crypto": "0.0.3",
+      "ejs": "^2.3.1",
+      "express": "^4.12.4",
+      "express-jwt": "^3.1.0",
+      "jsonwebtoken": "^5.0.5",
+      "mongoose": "^4.1.9",
+      "multiparty": "^4.1.2",
+      "nodemailer": "~0.7.1",
+      "passport": "^0.3.0",
+      "passport-facebook": "^2.0.0",
+      "passport-google-oauth": "^0.2.0",
+      "passport-local": "^1.0.0"
+      },
+      "engines": {
+        "node": "0.12.7"
+        },
+        "devDependencies": {},
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/sinhvis/LeagueForceHeroku.git"
+          },
+          "keywords": [
+          "League",
+          "Soccer"
+          ],
+          "author": "JoseHamadAnthonyvishal",
+          "bugs": {
+            "url": "https://github.com/sinhvis/LeagueForceHeroku/issues"
+            },
+            "homepage": "https://github.com/sinhvis/LeagueForceHeroku#readme"
+          }
