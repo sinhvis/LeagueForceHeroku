@@ -1,5 +1,5 @@
 {
-  "name": "appname",
+  "name": "leagueforce",
   "version": "0.0.0",
   "description": "An application for the Coder Camps FullStack JS course",
   "main": "server.js",
@@ -23,5 +23,19 @@
     "passport-facebook": "^2.0.0",
     "passport-google-oauth": "^0.2.0",
     "passport-local": "^1.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinhvis/LeagueForceHeroku.git"
+  },
+  "keywords": [
+    "League",
+    "Soccer"
+  ],
+  "author": "JoseHamadAnthonyvishal",
+  "bugs": {
+    "url": "https://github.com/sinhvis/LeagueForceHeroku/issues"
+  },
+  "homepage": "https://github.com/sinhvis/LeagueForceHeroku#readme"
 }
